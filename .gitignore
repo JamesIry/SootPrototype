@@ -1,0 +1,29 @@
+#emacs backup and temporary files
+*~
+# *#
+.#*
+
+#everybody else's backup files
+*.bak
+
+#eclipse metadata
+.classpath
+.project
+.scala_dependencies
+
+#intellij metadata
+.idea/
+.iml
+.target/
+
+#sbt metadata
+target/
+lib_managed/
+project/boot/
+project/build/target/
+project/plugins/target/
+project/plugins/lib_managed/
+project/plugins/src_managed/
+
+#project specific
+sootOutput/
